@@ -1,0 +1,8 @@
+<!-- content-featured.php -->
+
+<article class="poem">
+    <h3 class="poem-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <p class="poem-author"><?php the_field('poet_name') ?></p>
+    <div class="poem-text"><?php the_content(); ?></div>
+    <p class="bio-line"><?php the_field('poet_bio') ?></p>
+</article><!-- .poem -->
